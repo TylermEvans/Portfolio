@@ -1,0 +1,26 @@
+#version 150
+
+uniform sampler2D tex;
+uniform vec3 lightPos;
+uniform vec3 eyePos;
+
+in vec2 v_texcoord;
+in vec3 v_normal;
+in vec3 v_worldPos;
+
+out vec4 color;
+
+void main(){
+    vec3 N = normalize(v_normal);
+    vec3 L = normalize(lightPos - v_worldPos);
+    vec3 V = normalize(eyePos - v_worldPos);
+    vec3 R = reflect( -L,N );
+    float diffuse = clamp( dot(N,L), 0.0, 1.0 );
+    float specular = pow( max( 0.0, dot(V,R)) , 32.0 ); //hardcoded exponent
+    specular *= sign(diffuse);  //no specular if no diffuse
+    
+    color = texture(tex,v_texcoord);
+    color.rgb *= diffuse;
+    color.rgb += vec3(specular);
+    
+}

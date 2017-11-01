@@ -1,0 +1,296 @@
+﻿  window.c
+  wavestream.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\wavestream.c(426): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\wavestream.c(436): warning C4102: 'done': unreferenced label
+  vorbisfile.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(259): warning C4244: 'function': conversion from 'ogg_int64_t' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(273): warning C4244: '=': conversion from 'ogg_int64_t' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(539): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(566): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(570): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(580): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(642): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(875): warning C4244: 'function': conversion from 'ogg_int64_t' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1115): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1116): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1120): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1148): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1676): warning C4244: '=': conversion from 'ogg_int64_t' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1713): warning C4244: 'initializing': conversion from 'double' to 'ogg_int64_t', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(1743): warning C4244: 'initializing': conversion from 'double' to 'ogg_int64_t', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisfile.c(2079): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  vorbisenc.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psych_44.h(27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psych_44.h(33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psych_44.h(39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psych_44.h(45): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psych_44.h(51): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(248): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(249): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(251): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(231): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(272): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(273): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(274): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(276): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(277): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(278): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(284): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(285): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(286): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(289): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(291): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(292): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(258): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(259): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(271): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(282): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(312): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(345): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(346): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(347): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(348): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(349): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(351): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(354): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(338): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(377): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(362): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(388): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(383): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(403): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(410): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(417): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(398): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(429): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(430): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(447): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(529): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(593): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(622): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(659): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(660): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(661): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(717): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(834): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(840): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(842): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(877): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(909): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(910): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(958): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(960): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(970): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(981): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(1065): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(1081): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\vorbisenc.c(1084): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+  synthesis.c
+  smallft.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\smallft.c(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\smallft.c(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\smallft.c(283): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\smallft.c(284): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\smallft.c(853): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\smallft.c(854): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  sharedbook.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(55): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(56): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(67): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(164): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(223): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(243): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(222): warning C4244: 'initializing': conversion from 'long' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(242): warning C4244: 'initializing': conversion from 'long' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sharedbook.c(375): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+  res0.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\res0.c(447): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\res0.c(427): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  registry.c
+  psy.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(137): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(139): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(173): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(174): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(175): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(254): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(259): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(192): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(193): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(217): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(218): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(239): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(274): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(276): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(277): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(290): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(291): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(301): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(325): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(327): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(348): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(296): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(312): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(336): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(402): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(404): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(571): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(739): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(801): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(807): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(814): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(818): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(922): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(953): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(955): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(976): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(978): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(992): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1050): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1157): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1176): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1178): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1021): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\psy.c(1022): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+  music_ogg.c
+  music_cmd.c
+  music.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\music.c(341): warning C4102: 'skip': unreferenced label
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\music.c(849): warning C4102: 'skip': unreferenced label
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\music.c(977): warning C4102: 'skip': unreferenced label
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\music.c(1286): warning C4102: 'skip': unreferenced label
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\music.c(1474): warning C4102: 'skip': unreferenced label
+  mixer.c
+  mdct.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(58): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(69): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(72): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mdct.c(73): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  mapping0.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mapping0.c(272): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mapping0.c(318): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mapping0.c(335): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\mapping0.c(393): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  lsp.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(252): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(276): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(259): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(352): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(399): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(451): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lsp.c(454): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  lpc.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\lpc.c(130): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  lookup.c
+  load_voc.c
+  Generating Code...
+  Compiling...
+  load_ogg.c
+  load_aiff.c
+  info.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\info.c(57): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+  framing.c
+  floor1.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\floor1.c(290): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\floor1.c(514): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\floor1.c(515): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  floor0.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\floor0.c(126): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\floor0.c(136): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  envelope.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\envelope.c(48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\envelope.c(65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\envelope.c(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\envelope.c(145): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\envelope.c(127): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  effects_internal.c
+  effect_stereoreverse.c
+  effect_position.c
+  dynamic_ogg.c
+  codebook.c
+  block.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\block.c(863): warning C4244: 'initializing': conversion from 'ogg_int64_t' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\block.c(901): warning C4244: 'initializing': conversion from 'ogg_int64_t' to 'long', possible loss of data
+  bitwise.c
+  bitrate.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(42): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(43): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(44): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(51): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(135): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(83): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\bitrate.c(88): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  analysis.c
+  SDLnetselect.c
+  SDLnetUDP.c
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\sdlnetudp.c(226): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SDLnetTCP.c
+  SDLnet.c
+  Generating Code...
+  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(1001): warning C4005: 'M_PI': macro redefinition
+  c:\users\spart\desktop\portfoliogit\etgg2802\sdl2\include\sdl_stdinc.h(440): note: see previous definition of 'M_PI'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\camera.h(125): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\camera.h(126): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\collision.h(5): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(61): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(61): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(62): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(76): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(76): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(77): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(90): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(90): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(91): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(106): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(106): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\robot.h(107): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\world.h(68): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\bullet.h(35): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\bullet.h(45): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\bullet.h(46): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(58): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(64): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(269): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(341): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(351): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(353): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(370): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(377): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(384): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(456): warning C4018: '<': signed/unsigned mismatch
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(96): warning C4297: 'SDL_main': function assumed not to throw an exception but does
+  c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(96): note: __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(108): warning C4297: 'SDL_main': function assumed not to throw an exception but does
+  c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(108): note: __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+c:\users\spart\desktop\portfoliogit\etgg2802\libs\math3d.h(836): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  c:\users\spart\desktop\portfoliogit\etgg2802\libs\math3d.h(1011): note: see reference to function template instantiation 'T normalize<vec3>(const T &)' being compiled
+          with
+          [
+              T=vec3
+          ]
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\program.h(408): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(416): note: see reference to function template instantiation 'void Program::setUniform<double>(std::string,T)' being compiled
+          with
+          [
+              T=double
+          ]
+c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\program.h(408): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  c:\users\spart\desktop\portfoliogit\etgg2802\etgg2802\main.cpp(425): note: see reference to function template instantiation 'void Program::setUniform<int>(std::string,T)' being compiled
+          with
+          [
+              T=int
+          ]
+  glfuncs.cpp
+  Generating Code...
+     Creating library C:\Users\spart\Desktop\PortfolioGit\ETGG2802\Debug\ETGG2802.lib and object C:\Users\spart\Desktop\PortfolioGit\ETGG2802\Debug\ETGG2802.exp
+  ETGG2802.vcxproj -> C:\Users\spart\Desktop\PortfolioGit\ETGG2802\Debug\ETGG2802.exe
+  ETGG2802.vcxproj -> C:\Users\spart\Desktop\PortfolioGit\ETGG2802\Debug\ETGG2802.pdb (Full PDB)

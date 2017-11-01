@@ -1,0 +1,159 @@
+#version 150
+
+uniform sampler2D tex;
+uniform vec3 eyePos;
+uniform float fshader;
+uniform float alphaOffset;
+uniform float fogStart;
+uniform float deltaFog;
+uniform vec4 fogColor;
+uniform float fogSetting;
+uniform float density;
+
+struct Light {
+    vec3 position;
+    vec3 color;
+};
+
+uniform Light light;
+
+in vec2 v_texcoord;
+in vec3 v_normal;
+in vec3 v_worldPos;
+
+
+
+
+out vec4 color;
+
+void main(){
+	if (fshader==1.0)
+	{
+		
+		color = texture(tex,v_texcoord);
+		
+		if (color.a<0.05)
+		{
+			discard;
+		
+		}
+		
+		
+		
+		
+	
+	}
+	else
+	{
+		if (fogSetting==1.0)
+		{
+		
+			vec3 N = normalize(v_normal);
+			vec3 L = normalize(light.position - v_worldPos);
+			float dp = dot(N,L);
+			dp = max( dp , 0.0 );
+			vec3 R = reflect(-L,N);
+			R = normalize(R);
+			vec3 V = normalize(eyePos-v_worldPos);
+			float sp = dot(R,V);
+			sp = max(sp, 0.0);
+			sp = pow(sp,32);
+			float alpha = 1;			
+			color.rgb = (dp+sp)*texture(tex, v_texcoord).rgb*light.color;
+			float dist = length(eyePos-v_worldPos);
+			float f = (dist-fogStart)/deltaFog;
+			f = 1 - f;
+			f = clamp(f,0.0,1.0);
+			color.a = alpha-alphaOffset;
+			color = mix(fogColor,color,f);
+			if (color.a==0.0)
+			{
+				discard;
+			}
+		
+		}
+		else if (fogSetting==2.0)
+		{
+			vec3 N = normalize(v_normal);
+			vec3 L = normalize(light.position - v_worldPos);
+			float dp = dot(N,L);
+			dp = max( dp , 0.0 );
+			vec3 R = reflect(-L,N);
+			R = normalize(R);
+			vec3 V = normalize(eyePos-v_worldPos);
+			float sp = dot(R,V);
+			sp = max(sp, 0.0);
+			sp = pow(sp,32);
+			float alpha = 1;
+			color.a = alpha-alphaOffset;			
+			color.rgb = (dp+sp)*texture(tex, v_texcoord).rgb*light.color;
+			float dist = length(eyePos-v_worldPos);
+			float f = exp(-density*dist);
+			color = mix(fogColor,color,f);
+			if (color.a==0.0)
+			{
+				discard;
+			}
+		
+		
+		}
+		
+		else if(fogSetting==3.0)
+		{
+			vec3 N = normalize(v_normal);
+			vec3 L = normalize(light.position - v_worldPos);
+			float dp = dot(N,L);
+			dp = max( dp , 0.0 );
+			vec3 R = reflect(-L,N);
+			R = normalize(R);
+			vec3 V = normalize(eyePos-v_worldPos);
+			float sp = dot(R,V);
+			sp = max(sp, 0.0);
+			sp = pow(sp,32);
+			float alpha = 1;
+			color.a = alpha-alphaOffset;			
+			color.rgb = (dp+sp)*texture(tex, v_texcoord).rgb*light.color;
+			float dist = length(eyePos-v_worldPos);
+			float f = exp(-pow(density*dist,2));
+			color = mix(fogColor,color,f);
+			if (color.a==0.0)
+			{
+				discard;
+			}
+		}
+		else 
+		{
+			vec3 N = normalize(v_normal);
+			vec3 L = normalize(light.position - v_worldPos);
+			float dp = dot(N,L);
+			dp = max( dp , 0.0 );
+			vec3 R = reflect(-L,N);
+			R = normalize(R);
+			vec3 V = normalize(eyePos-v_worldPos);
+			float sp = dot(R,V);
+			sp = max(sp, 0.0);
+			sp = pow(sp,32);
+			float alpha = 1;
+			color.a = alpha-alphaOffset;			
+			color.rgb = (dp+sp)*texture(tex, v_texcoord).rgb*light.color;
+			if (color.a==0.0)
+			{
+				discard;
+			}
+			
+		
+		
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+    
+    
+}

@@ -1,0 +1,25 @@
+#version 150
+
+uniform sampler2D tex;
+
+in vec2 v_texcoord;
+
+out vec4 color;
+
+#define MAX_KERNEL_SIZE 49
+uniform vec2 deltas;
+uniform float blur_kernel[MAX_KERNEL_SIZE];
+uniform float kernel_size;
+uniform float blur_radius;
+
+void main(){
+    vec2 P = v_texcoord - blur_radius*(deltas/textureSize(tex,0));
+    vec2 D = 1.0/textureSize(tex,0)*deltas;
+    color.rgb = vec3(0,0,0);
+    //this is dynamically uniform...
+    for(int i=0;i<kernel_size;++i){
+        color.rgb += blur_kernel[i]*texture(tex,P).rgb;
+        P += D;
+    }
+    color.a=1.0;
+}

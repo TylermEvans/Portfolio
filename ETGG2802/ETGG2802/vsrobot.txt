@@ -1,0 +1,75 @@
+#version 150
+
+in vec3 a_position;
+in vec2 a_texcoord;
+in vec3 a_normal;
+in float a_boneidx;
+
+out vec2 v_texcoord;
+out vec3 v_normal;
+out vec3 v_worldPos;
+
+uniform mat4 worldMatrix;
+uniform mat4 viewMatrix;
+uniform mat4 projMatrix;
+
+uniform sampler2D boneparents;
+uniform sampler2D bonequats;
+uniform sampler2D boneheads;
+
+uniform float frame;
+
+vec4 qmul( vec4 q, vec4 r ){
+    return vec4(
+        q.w*r.xyz + r.w*q.xyz + cross(q.xyz,r.xyz),
+        q.w*r.w - dot(q.xyz , r.xyz)
+     );
+}
+
+vec4 computePos( vec4 p, int boneidx, float frame ){
+    //input: point or vector we're processing
+    //input: index of the bone that owns p
+    
+    //prevent infinite loops (debugging)
+    int counter=64;
+    
+    while( boneidx != -1 ){
+        if( counter-- < 0 ){
+            return vec4(0,0,0,0);
+        }
+            
+        //texture, indices, mipmap level
+        float parent  = texelFetch( boneparents, ivec2(boneidx,0), 0 ).r; 
+        
+        vec4 q1 = texelFetch( bonequats, ivec2( floor(frame), boneidx), 0);
+        vec4 q2 = texelFetch( bonequats, ivec2( ceil(frame), boneidx), 0);
+        vec4 q = normalize(mix(q1,q2,fract(frame)));
+        
+        vec4 headpos = texelFetch( boneheads, ivec2( boneidx, 0 ), 0 );
+
+        //don't translate vectors, but do translate points
+        p.xyz -= p.w * headpos.xyz;
+        p.xyz = (qmul( q, qmul( vec4(p.xyz,0.0) , vec4(-q.xyz,q.w) ) )).xyz;
+        p.xyz += p.w * headpos.xyz;
+        
+        boneidx = int(parent);
+    }
+    return p;
+}
+
+
+void main(){
+    vec4 p = vec4(a_position,1.0);
+    p = computePos(p,int(a_boneidx),frame);
+    p = p * worldMatrix;
+    v_worldPos = p.xyz;
+    p = p * viewMatrix;
+    p = p * projMatrix;
+    gl_Position = p;
+    v_texcoord = a_texcoord;
+    
+    vec4 n = vec4(a_normal, 0.0 );
+    n = computePos(n,int(a_boneidx),frame);
+    n = n * worldMatrix;
+    v_normal = n.xyz;
+}

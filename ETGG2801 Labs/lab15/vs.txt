@@ -1,0 +1,46 @@
+#version 150
+
+in vec3 a_position;
+in vec2 a_texcoord;
+in vec3 a_normal;
+
+
+
+out vec2 v_texcoord;
+out vec3 v_normal;
+out vec3 v_worldPos;
+
+uniform mat4 worldMatrix;
+uniform mat4 projMatrix;
+uniform mat4 viewMatrix;
+uniform vec2 bbsize;
+uniform float vshader;
+vec4 point;
+
+void main(){
+	if (vshader == 1.0)
+	{
+		vec4 p = vec4(a_position,1.0);
+		p = p * worldMatrix;
+		v_worldPos = p.xyz;
+		p = p * viewMatrix;
+		p = p * projMatrix;
+		gl_Position = p;
+		v_texcoord = a_texcoord;
+		v_normal = (vec4(a_normal,0.0)*worldMatrix).xyz;
+	
+	}
+	if (vshader==2)
+	{
+		point = vec4(0,0,0,1);
+		point = point*worldMatrix;
+		point = point*viewMatrix;
+		vec4 newpoint = vec4(point.xy+a_position.xy*bbsize.xy,0,0);
+		point = point*(newpoint);
+		point = point*projMatrix;
+		gl_Position = point;
+		v_texcoord = a_texcoord;	
+	
+	}
+    
+}

@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{06C2BD6A-497E-4DC4-9654-989BE2D3E7DB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ETGG2802</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\spart\Desktop\PortfolioGit\ETGG2802\SDL2\include;C:\Users\spart\Desktop\PortfolioGit\ETGG2802\libs;C:\Users\spart\Desktop\PortfolioGit\ETGG2802\ETGG2802;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\spart\Desktop\PortfolioGit\ETGG2802\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OGG_MUSIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;ws2_32.lib;IPHLPAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libs\backends.h" />
+    <ClInclude Include="..\libs\bitrate.h" />
+    <ClInclude Include="..\libs\codebook.h" />
+    <ClInclude Include="..\libs\codec.h" />
+    <ClInclude Include="..\libs\codec_internal.h" />
+    <ClInclude Include="..\libs\config_types.h" />
+    <ClInclude Include="..\libs\crc32.h" />
+    <ClInclude Include="..\libs\deflate.h" />
+    <ClInclude Include="..\libs\dynamic_flac.h" />
+    <ClInclude Include="..\libs\dynamic_fluidsynth.h" />
+    <ClInclude Include="..\libs\dynamic_mod.h" />
+    <ClInclude Include="..\libs\dynamic_modplug.h" />
+    <ClInclude Include="..\libs\dynamic_mp3.h" />
+    <ClInclude Include="..\libs\dynamic_ogg.h" />
+    <ClInclude Include="..\libs\effects_internal.h" />
+    <ClInclude Include="..\libs\envelope.h" />
+    <ClInclude Include="..\libs\floor_all.h" />
+    <ClInclude Include="..\libs\floor_books.h" />
+    <ClInclude Include="..\libs\fluidsynth.h" />
+    <ClInclude Include="..\libs\glcorearb.h" />
+    <ClInclude Include="..\libs\glfuncs.h" />
+    <ClInclude Include="..\libs\gzguts.h" />
+    <ClInclude Include="..\libs\highlevel.h" />
+    <ClInclude Include="..\libs\inffast.h" />
+    <ClInclude Include="..\libs\inffixed.h" />
+    <ClInclude Include="..\libs\inflate.h" />
+    <ClInclude Include="..\libs\inftrees.h" />
+    <ClInclude Include="..\libs\load_aiff.h" />
+    <ClInclude Include="..\libs\load_flac.h" />
+    <ClInclude Include="..\libs\load_mp3.h" />
+    <ClInclude Include="..\libs\load_ogg.h" />
+    <ClInclude Include="..\libs\load_voc.h" />
+    <ClInclude Include="..\libs\lookup.h" />
+    <ClInclude Include="..\libs\lookup_data.h" />
+    <ClInclude Include="..\libs\lpc.h" />
+    <ClInclude Include="..\libs\lsp.h" />
+    <ClInclude Include="..\libs\masking.h" />
+    <ClInclude Include="..\libs\math3d.h" />
+    <ClInclude Include="..\libs\mdct.h" />
+    <ClInclude Include="..\libs\misc.h" />
+    <ClInclude Include="..\libs\music_cmd.h" />
+    <ClInclude Include="..\libs\music_flac.h" />
+    <ClInclude Include="..\libs\music_mad.h" />
+    <ClInclude Include="..\libs\music_mod.h" />
+    <ClInclude Include="..\libs\music_modplug.h" />
+    <ClInclude Include="..\libs\music_ogg.h" />
+    <ClInclude Include="..\libs\ogg.h" />
+    <ClInclude Include="..\libs\os.h" />
+    <ClInclude Include="..\libs\os_types.h" />
+    <ClInclude Include="..\libs\png.h" />
+    <ClInclude Include="..\libs\pngconf.h" />
+    <ClInclude Include="..\libs\pngpriv.h" />
+    <ClInclude Include="..\libs\psy.h" />
+    <ClInclude Include="..\libs\psych_11.h" />
+    <ClInclude Include="..\libs\psych_16.h" />
+    <ClInclude Include="..\libs\psych_44.h" />
+    <ClInclude Include="..\libs\psych_8.h" />
+    <ClInclude Include="..\libs\registry.h" />
+    <ClInclude Include="..\libs\residue_16.h" />
+    <ClInclude Include="..\libs\residue_44.h" />
+    <ClInclude Include="..\libs\residue_44p51.h" />
+    <ClInclude Include="..\libs\residue_44u.h" />
+    <ClInclude Include="..\libs\residue_8.h" />
+    <ClInclude Include="..\libs\res_books_51.h" />
+    <ClInclude Include="..\libs\res_books_stereo.h" />
+    <ClInclude Include="..\libs\res_books_uncoupled.h" />
+    <ClInclude Include="..\libs\scales.h" />
+    <ClInclude Include="..\libs\SDLnetsys.h" />
+    <ClInclude Include="..\libs\SDL_mixer.h" />
+    <ClInclude Include="..\libs\SDL_net.h" />
+    <ClInclude Include="..\libs\setup_11.h" />
+    <ClInclude Include="..\libs\setup_16.h" />
+    <ClInclude Include="..\libs\setup_22.h" />
+    <ClInclude Include="..\libs\setup_32.h" />
+    <ClInclude Include="..\libs\setup_44.h" />
+    <ClInclude Include="..\libs\setup_44p51.h" />
+    <ClInclude Include="..\libs\setup_44u.h" />
+    <ClInclude Include="..\libs\setup_8.h" />
+    <ClInclude Include="..\libs\setup_X.h" />
+    <ClInclude Include="..\libs\smallft.h" />
+    <ClInclude Include="..\libs\trees.h" />
+    <ClInclude Include="..\libs\vorbisenc.h" />
+    <ClInclude Include="..\libs\vorbisfile.h" />
+    <ClInclude Include="..\libs\wavestream.h" />
+    <ClInclude Include="..\libs\window.h" />
+    <ClInclude Include="..\libs\zconf.h" />
+    <ClInclude Include="..\libs\zlib.h" />
+    <ClInclude Include="..\libs\zutil.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="CubeTexture.h" />
+    <ClInclude Include="DataTexture.h" />
+    <ClInclude Include="FrameBuffer.h" />
+    <ClInclude Include="ImageCubeTexture.h" />
+    <ClInclude Include="ImageTexture.h" />
+    <ClInclude Include="ImageTextureArray.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="ObjMesh.h" />
+    <ClInclude Include="ppng.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="SolidTexture.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="Texture2DArray.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libs\adler32.c" />
+    <ClCompile Include="..\libs\analysis.c" />
+    <ClCompile Include="..\libs\bitrate.c" />
+    <ClCompile Include="..\libs\bitwise.c" />
+    <ClCompile Include="..\libs\block.c" />
+    <ClCompile Include="..\libs\codebook.c" />
+    <ClCompile Include="..\libs\compress.c" />
+    <ClCompile Include="..\libs\crc32.c" />
+    <ClCompile Include="..\libs\deflate.c" />
+    <ClCompile Include="..\libs\dynamic_flac.c" />
+    <ClCompile Include="..\libs\dynamic_fluidsynth.c" />
+    <ClCompile Include="..\libs\dynamic_mod.c" />
+    <ClCompile Include="..\libs\dynamic_modplug.c" />
+    <ClCompile Include="..\libs\dynamic_mp3.c" />
+    <ClCompile Include="..\libs\dynamic_ogg.c" />
+    <ClCompile Include="..\libs\effects_internal.c" />
+    <ClCompile Include="..\libs\effect_position.c" />
+    <ClCompile Include="..\libs\effect_stereoreverse.c" />
+    <ClCompile Include="..\libs\envelope.c" />
+    <ClCompile Include="..\libs\floor0.c" />
+    <ClCompile Include="..\libs\floor1.c" />
+    <ClCompile Include="..\libs\fluidsynth.c" />
+    <ClCompile Include="..\libs\framing.c" />
+    <ClCompile Include="..\libs\glfuncs.cpp" />
+    <ClCompile Include="..\libs\gzclose.c" />
+    <ClCompile Include="..\libs\gzlib.c" />
+    <ClCompile Include="..\libs\gzread.c" />
+    <ClCompile Include="..\libs\gzwrite.c" />
+    <ClCompile Include="..\libs\infback.c" />
+    <ClCompile Include="..\libs\inffast.c" />
+    <ClCompile Include="..\libs\inflate.c" />
+    <ClCompile Include="..\libs\info.c" />
+    <ClCompile Include="..\libs\inftrees.c" />
+    <ClCompile Include="..\libs\load_aiff.c" />
+    <ClCompile Include="..\libs\load_flac.c" />
+    <ClCompile Include="..\libs\load_mp3.c" />
+    <ClCompile Include="..\libs\load_ogg.c" />
+    <ClCompile Include="..\libs\load_voc.c" />
+    <ClCompile Include="..\libs\lookup.c" />
+    <ClCompile Include="..\libs\lpc.c" />
+    <ClCompile Include="..\libs\lsp.c" />
+    <ClCompile Include="..\libs\mapping0.c" />
+    <ClCompile Include="..\libs\mdct.c" />
+    <ClCompile Include="..\libs\mixer.c" />
+    <ClCompile Include="..\libs\music.c" />
+    <ClCompile Include="..\libs\music_cmd.c" />
+    <ClCompile Include="..\libs\music_flac.c" />
+    <ClCompile Include="..\libs\music_mad.c" />
+    <ClCompile Include="..\libs\music_mod.c" />
+    <ClCompile Include="..\libs\music_modplug.c" />
+    <ClCompile Include="..\libs\music_ogg.c" />
+    <ClCompile Include="..\libs\png.c" />
+    <ClCompile Include="..\libs\pngerror.c" />
+    <ClCompile Include="..\libs\pngget.c" />
+    <ClCompile Include="..\libs\pngmem.c" />
+    <ClCompile Include="..\libs\pngpread.c" />
+    <ClCompile Include="..\libs\pngread.c" />
+    <ClCompile Include="..\libs\pngrio.c" />
+    <ClCompile Include="..\libs\pngrtran.c" />
+    <ClCompile Include="..\libs\pngrutil.c" />
+    <ClCompile Include="..\libs\pngset.c" />
+    <ClCompile Include="..\libs\pngtrans.c" />
+    <ClCompile Include="..\libs\pngwio.c" />
+    <ClCompile Include="..\libs\pngwrite.c" />
+    <ClCompile Include="..\libs\pngwtran.c" />
+    <ClCompile Include="..\libs\pngwutil.c" />
+    <ClCompile Include="..\libs\psy.c" />
+    <ClCompile Include="..\libs\registry.c" />
+    <ClCompile Include="..\libs\res0.c" />
+    <ClCompile Include="..\libs\SDLnet.c" />
+    <ClCompile Include="..\libs\SDLnetselect.c" />
+    <ClCompile Include="..\libs\SDLnetTCP.c" />
+    <ClCompile Include="..\libs\SDLnetUDP.c" />
+    <ClCompile Include="..\libs\sharedbook.c" />
+    <ClCompile Include="..\libs\smallft.c" />
+    <ClCompile Include="..\libs\synthesis.c" />
+    <ClCompile Include="..\libs\trees.c" />
+    <ClCompile Include="..\libs\uncompr.c" />
+    <ClCompile Include="..\libs\vorbisenc.c" />
+    <ClCompile Include="..\libs\vorbisfile.c" />
+    <ClCompile Include="..\libs\wavestream.c" />
+    <ClCompile Include="..\libs\window.c" />
+    <ClCompile Include="..\libs\zutil.c" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

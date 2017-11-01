@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Libraries">
+      <UniqueIdentifier>{7da9991d-6a23-434c-8792-e5b7623dd2a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTextureArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ppng.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCubeTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\backends.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\bitrate.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\codebook.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\codec.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\codec_internal.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\config_types.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\crc32.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\deflate.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dynamic_flac.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dynamic_fluidsynth.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dynamic_mod.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dynamic_modplug.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dynamic_mp3.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dynamic_ogg.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\effects_internal.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\envelope.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\floor_all.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\floor_books.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\fluidsynth.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\glcorearb.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\glfuncs.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\gzguts.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\highlevel.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\inffast.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\inffixed.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\inflate.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\inftrees.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\load_aiff.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\load_flac.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\load_mp3.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\load_ogg.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\load_voc.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\lookup.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\lookup_data.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\lpc.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\lsp.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\masking.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\math3d.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\mdct.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\misc.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\music_cmd.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\music_flac.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\music_mad.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\music_mod.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\music_modplug.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\music_ogg.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ogg.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\os.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\os_types.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\png.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pngconf.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pngpriv.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\psy.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\psych_8.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\psych_11.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\psych_16.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\psych_44.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\registry.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\res_books_51.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\res_books_stereo.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\res_books_uncoupled.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\residue_8.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\residue_16.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\residue_44.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\residue_44p51.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\residue_44u.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\scales.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\SDL_mixer.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\SDL_net.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\SDLnetsys.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_8.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_11.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_16.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_22.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_32.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_44.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_44p51.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_44u.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\setup_X.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\smallft.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\trees.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\vorbisenc.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\vorbisfile.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\wavestream.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\window.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\zconf.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\zlib.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\zutil.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\adler32.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\analysis.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\bitrate.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\bitwise.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\block.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\codebook.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\compress.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\crc32.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\deflate.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\dynamic_flac.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\dynamic_fluidsynth.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\dynamic_mod.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\dynamic_modplug.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\dynamic_mp3.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\dynamic_ogg.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\effect_position.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\effect_stereoreverse.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\effects_internal.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\envelope.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\floor0.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\floor1.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\fluidsynth.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\framing.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\glfuncs.cpp">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\gzclose.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\gzlib.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\gzread.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\gzwrite.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\infback.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\inffast.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\inflate.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\info.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\inftrees.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\load_aiff.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\load_flac.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\load_mp3.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\load_ogg.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\load_voc.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\lookup.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\lpc.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\lsp.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\mapping0.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\mdct.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\mixer.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music_cmd.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music_flac.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music_mad.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music_mod.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music_modplug.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\music_ogg.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\png.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngerror.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngget.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngmem.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngpread.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngread.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngrio.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngrtran.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngrutil.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngset.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngtrans.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngwio.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngwrite.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngwtran.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pngwutil.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\psy.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\registry.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\res0.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDLnet.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDLnetselect.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDLnetTCP.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDLnetUDP.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\sharedbook.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\smallft.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\synthesis.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\trees.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\uncompr.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\vorbisenc.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\vorbisfile.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\wavestream.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\window.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\zutil.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

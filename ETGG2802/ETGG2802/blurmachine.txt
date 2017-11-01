@@ -1,0 +1,18 @@
+#version 150
+uniform sampler2D blurred;
+uniform sampler2D unblurred;
+uniform sampler2D depthtexture;
+uniform float P,Q;
+uniform float focaldistance;
+in vec2 v_texcoord;
+out vec4 color;
+void main(){
+    float clipspacez = texture(depthtexture,v_texcoord).r;
+    float viewspacez = Q/(clipspacez+P);    //negated!
+    vec4 B = texture(blurred,v_texcoord);
+    vec4 U = texture(unblurred,v_texcoord);
+    float interp = 0.02*length(viewspacez - focaldistance);
+    interp = clamp(interp,0.0,1.0);
+    color.rgb = mix(U.rgb,B.rgb,interp);
+    color.a = 1.0;
+}
